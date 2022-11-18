@@ -14,7 +14,7 @@ def Say(text):
 
 server = SMTP(host="smtp.gmail.com", port=587)
 server.starttls()  # Transport layer security..Mail is encrypted..
-server.login("seenusanjay20102002@gmail.com", "#Jaihind20")
+server.login("seenusanjay20102002@gmail.com", "")
 email = EmailMessage()
 email["From"] = "seenusanjay20102002@gmail.com"
 email["To"] = "seenusanjay20102002@gmail.com"
